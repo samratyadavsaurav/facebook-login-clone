@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width:100%;
+  max-width:400px;
+  
+  
+}
+
+#heading{
+  color: #1877f2;
+  font-size:48px;
+  margin-top:20px;
+  text-align:center;
+
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #606770;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+input{
+  width:100%;
+  border: 1px solid #dddfe2;
+  padding:15px 0;
+  border-radius:6px;
+  font-size:16px;
+  margin:10px 0;
+  padding-left:15px;
+
+
+}
+.form-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+button{
+   width:100%;
+  border: 1px solid #dddfe2;
+  padding:15px 0;
+  border-radius:6px;
+  font-size:16px;
+  margin:10px 0;
+  padding-left:15px;
+
+}
+
+#login_btn{
+  background-color:#1877f2;;
+  color:white;
+}
+
+#forgot_btn{
+ background-color: rgb(208, 206, 206);
+color: #1877f2;
+
+}
+
+#forgot_btn a{
+  text-decoration:none;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #dddfe2;
+}
+
+
+#createNew_btn{
+  background-color: #42b72a;
+  color:white;
+ 
+}
+
+#signUp{
+  background-color:#1877f2;
+  color:white;
+}
+
+#backToLogin_btn{
+  background-color:brown;
+  color:white;
+}
+
+#backToLogin-btn{
+  background-color:brown;
+  color:white;
+}
+
+#sendResetLink_btn{
+  background-color:#1877f2;
+}
+
+.hidden{
+  display:none;
+}
+

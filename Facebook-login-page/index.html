@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="form-box" id="loginBox">
+      <h1 id="heading">Facebook</h1>
+      <p class="subtitle">Log into facebook</p>
+      <form id="loginForm">
+        <input type="text" placeholder="Email or phone number" id="email" required>
+        <input type="password" placeholder="Password" id="password" required>
+        <button id="login_btn">Log In</button>
+        <button id="forgot_btn"><a href="#">Forgotten password?</a></button>
+        <hr>
+        <button id="createNew_btn">Create New Account</button>
+      </form>
+    </div>
+    
+
+    <div class="form-box hidden" id="signUpBox">
+      <h2>Create a new account</h2>
+      <p class="subtitle">It's quick and easy</p>
+      <form id="signUpBox">
+        <input type="text" placeholder="First name" id="first-name" required>
+        <input type="text" placeholder="Last name" id="last-name" required>
+        <input type="text" placeholder="Email address" id="Email" required>
+        <input type="text" placeholder="New password" id="newPassword" required>
+        <button id="signUp">Sign Up</button>
+        <button id="backToLogin_btn">Back to Login</button>
+      </form>
+    </div>
+
+    <div class="form-box hidden" id="resetBox">
+      <h2>Reset Password</h2>
+      <p>Enter your email to reset your password</p>
+      <form id="resetBox">
+        <input type="text" placeholder="Emai address" id="email-address">
+        <button id="sendResetLink_btn">Send Reset Link</button>
+        <button id="backToLogin-btn">Back to Login</button>
+      </form>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
